@@ -1,0 +1,105 @@
+// Place your key bindings in this file to override the defaultsauto[]
+[
+   {
+      "key": "ctrl+d",
+      "command": "editor.action.deleteLines",
+      "when": "textInputFocus && !editorReadonly"
+   },
+
+   {
+      "key": "ctrl+shift+space",
+      "command": "editor.action.formatDocument",
+      "when": "editorHasDocumentFormattingProvider && editorHasDocumentFormattingProvider && editorTextFocus && !editorReadonly && !inCompositeEditor"
+   },
+
+   {
+      "key": "alt+k",
+      "command": "cursorDown",
+      "when": "textInputFocus && editorTextFocus"
+   },
+   {
+      "key": "alt+k",
+      "command": "selectNextSuggestion",
+      "when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus"
+   },
+   // Move cursor to end of file
+   {
+      "key": "ctrl+k",
+      "command": "cursorBottom",
+      "when": "textInputFocus"
+   },
+   {
+      "key": "alt+i",
+      "command": "cursorUp",
+      "when": "textInputFocus && editorTextFocus"
+   },
+   {
+      "key": "alt+i",
+      "command": "selectPrevSuggestion",
+      "when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus"
+   },
+   // Move cursor to beginning of file
+   {
+      "key": "ctrl+i",
+      "command": "cursorTop",
+      "when": "textInputFocus"
+   },
+   {
+      "key": "alt+j",
+      "command": "cursorLeft",
+      "when": "textInputFocus && editorTextFocus"
+   },
+   {
+      "key": "alt+l",
+      "command": "cursorRight",
+      "when": "textInputFocus && editorTextFocus"
+   },
+   // Word select to the left
+   {
+      "key": "ctrl+alt+j",
+      "command": "cursorWordLeftSelect",
+      "when": "textInputFocus"
+   },
+   // Word select to the right
+   {
+      "key": "ctrl+alt+l",
+      "command": "cursorWordRightSelect",
+      "when": "textInputFocus"
+   },
+   // Cursor select up
+   {
+      "key": "ctrl+alt+i",
+      "command": "cursorUpSelect",
+      "when": "textInputFocus"
+   },
+   // Cursor select down
+   {
+      "key": "ctrl+alt+k",
+      "command": "cursorDownSelect",
+      "when": "textInputFocus"
+   },
+   // Copy line up
+   {
+      "key": "shift+alt+i",
+      "command": "editor.action.copyLinesUpAction",
+      "when": "editorTextFocus && !editorReadonly"
+    },
+   // Copy line down
+   {
+      "key": "shift+alt+k",
+      "command": "editor.action.copyLinesDownAction",
+      "when": "editorTextFocus && !editorReadonly"
+   },
+   // Move cursor to end of the line
+   {
+      "key": "ctrl+l",
+      "command": "cursorLineEnd",
+      "when": "textInputFocus && editorTextFocus"
+   },
+   // Move cursor to start of the line
+   {
+      "key": "ctrl+j",
+      "command": "cursorLineStart",
+      "when": "textInputFocus && editorTextFocus"
+   }
+]
