@@ -1,0 +1,170 @@
+{
+   "editor.autoClosingQuotes": "never",
+   "editor.autoSurround": "never",
+   "editor.wordWrap": "on",
+   "editor.suggestOnTriggerCharacters": false,
+   "editor.wordBasedSuggestions": false,
+   "editor.autoClosingBrackets": "never",
+   "editor.autoClosingOvertype": "never",
+   "html.autoClosingTags": false,
+   "javascript.autoClosingTags": false,
+   "editor.detectIndentation": false,
+   "editor.fontSize": 18,
+   "editor.multiCursorModifier": "ctrlCmd",
+   "liveServer.settings.CustomBrowser": "chrome",
+   "liveServer.settings.donotVerifyTags": true,
+   //  "liveServer.settings.root": "",
+   "editor.mouseWheelZoom": true,
+   "debug.console.fontSize": 16,
+   "markdown.preview.fontSize": 16,
+   "terminal.integrated.fontSize": 16,
+   "liveServer.settings.donotShowInfoMsg": true,
+   "editor.tabSize": 3,
+   "vetur.format.options.tabSize": 3,
+   // "terminal.integrated.shell.windows": "D:\\Just to Organize\\Git\\git-bash.exe",
+   // "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+   // "terminal.integrated.profiles.windows": {
+   //    "powershell": {
+   //       "path": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+   //    },
+   //    "bash": {
+   //       "path": "C:\\Program Files\\Git\\bin\\bash.exe"
+   //    },
+   //    "cmd": {
+   //       "path": "C:\\WINDOWS\\system32\\cmd.exe"
+   //    },
+   // },
+   // "terminal.integrated.defaultProfile.windows": "powershell",
+   "[html]": {
+      "editor.defaultFormatter": "vscode.html-language-features"
+   },
+   "[javascript]": {
+      "editor.defaultFormatter": "vscode.typescript-language-features"
+   },
+   "[json]": {
+      "editor.defaultFormatter": "vscode.json-language-features"
+   },
+   "terminal.explorerKind": "external",
+   "terminal.external.windowsExec": "C:\\Program Files (x86)\\Git\\git-bash.exe",
+   "workbench.iconTheme": "material-icon-theme",
+   "[vue]": {
+      "editor.defaultFormatter": "octref.vetur"
+   },
+   "[jsonc]": {
+      "editor.defaultFormatter": "vscode.json-language-features"
+   },
+   "javascript.updateImportsOnFileMove.enabled": "always",
+   "terminal.integrated.tabs.enabled": true, // Delete if switching back to powershell?
+   "better-comments.tags": [
+      {
+         "tag": "##",
+         "color": "#ADFF2F",
+         "strikethrough": false,
+         "underline": false,
+         "backgroundColor": "#000000",
+         "bold": false,
+         "italic": false
+      },
+      {
+         "tag": "!!",
+         "color": "#FF2D00",
+         "strikethrough": false,
+         "underline": false,
+         "backgroundColor": "transparent",
+         "bold": false,
+         "italic": false
+      },
+      {
+         "tag": "??",
+         "color": "#3498DB",
+         "strikethrough": false,
+         "underline": false,
+         "backgroundColor": "transparent",
+         "bold": false,
+         "italic": false
+      },
+      {
+         "tag": "///",
+         "color": "#474747",
+         "strikethrough": true,
+         "underline": false,
+         "backgroundColor": "transparent",
+         "bold": false,
+         "italic": false
+      },
+      {
+         "tag": "@@",
+         "color": "#FF8C00",
+         "strikethrough": false,
+         "underline": false,
+         "backgroundColor": "transparent",
+         "bold": false,
+         "italic": false
+      },
+      {
+         "tag": "**",
+         "color": "#98C379",
+         "strikethrough": false,
+         "underline": false,
+         "backgroundColor": "transparent",
+         "bold": false,
+         "italic": false
+      },
+      {
+         "tag": "/",
+         "color": "",
+         "strikethrough": false,
+         "underline": true,
+         "backgroundColor": "transparent",
+         "bold": true,
+         "italic": false
+      },
+      {
+         "tag": ">>",
+         "color": "",
+         "strikethrough": false,
+         "underline": false,
+         "backgroundColor": "transparent",
+         "bold": true,
+         "italic": true
+      }
+   ],
+   "quokka.colors": {
+      // "covered": "#ADFF2F",
+      "covered": "#62b455",
+      "errorPath": "#ffa0a0",
+      "errorSource": "#fe536a",
+      "notCovered": "#cccccc",
+      "partiallyCovered": "#d2a032"
+   },
+   "diffEditor.wordWrap": "on",
+   "terminal.integrated.cursorBlinking": true,
+   "terminal.integrated.letterSpacing": 1,
+   "terminal.integrated.lineHeight": 0,
+   "[scss]": {
+      "editor.defaultFormatter": "rvest.vs-code-prettier-eslint"
+   },
+   "[css]": {
+      "editor.defaultFormatter": "rvest.vs-code-prettier-eslint"
+   },
+   "workbench.editor.revealIfOpen": false,
+   "material-icon-theme.activeIconPack": "vue_vuex",
+   "security.workspace.trust.untrustedFiles": "open",
+   "codesnap.target": "window",
+   "codesnap.showLineNumbers": true,
+   "codesnap.showWindowControls": true,
+   "editor.largeFileOptimizations": false,
+   "readable.enableAutoComplete": true,
+   "[typescript]": {
+      "editor.defaultFormatter": "vscode.typescript-language-features"
+   },
+   "[php]": {
+      "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
+   },
+   "material-icon-theme.folders.theme": "specific",
+   // "material-icon-theme.files.associations": {
+   //    "ecosystem.config.js": "Pm2",
+   // },
+   "editor.linkedEditing": true,
+   "terminal.integrated.defaultProfile.windows": "Git Bash",
+}
