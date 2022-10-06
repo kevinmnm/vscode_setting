@@ -1,9 +1,35 @@
 // Place your key bindings in this file to override the defaultsauto[]
-[
+[  
+   {
+      "key": "ctrl+tab",
+      // "command": "workbench.action.nextEditor"
+      "command": "workbench.action.quickOpenPreviousRecentlyUsedEditor"
+  },
+  {
+      "key": "ctrl+shift+tab",
+      "command": "workbench.action.previousEditor"
+  },
    {
       "key": "ctrl+d",
       "command": "editor.action.deleteLines",
       "when": "textInputFocus && !editorReadonly"
+   },
+   // Insert snippets
+   {
+      "key": "ctrl+alt+1",
+      "command": "editor.action.insertSnippet",
+      "when": "editorTextFocus",
+      "args": {
+        "snippet": "console.group($1);\n\nconsole.groupEnd($0);"
+      }
+   },
+   {
+      "key": "ctrl+shift+/",
+      "command": "editor.action.insertSnippet",
+      "when": "editorTextFocus",
+      "args": {
+        "snippet": "/**\n * $1\n**/"
+      }
    },
 
    {
@@ -101,5 +127,94 @@
       "key": "ctrl+j",
       "command": "cursorLineStart",
       "when": "textInputFocus && editorTextFocus"
+   },
+   {
+      "key": "ctrl+alt+e",
+      "command": "code-runner.run"
+   },
+   {
+      "key": "ctrl+alt+n",
+      "command": "-code-runner.run"
+   },
+   {
+      "key": "ctrl+alt+q",
+      "command": "quokka.createJavaScriptFile",
+      "when": "!quokka.isLiveShareClient && !terminalFocus"
+   },
+   {
+      "key": "ctrl+k j",
+      "command": "-quokka.createJavaScriptFile",
+      "when": "!quokka.isLiveShareClient && !terminalFocus"
+   },
+   {
+      "key": "ctrl+shift+q ctrl+shift+w",
+      "command": "workbench.action.quickOpenNavigatePreviousInViewPicker",
+      "when": "inQuickOpen && inViewsPicker"
+   },
+   {
+      "key": "ctrl+shift+q",
+      "command": "-workbench.action.quickOpenNavigatePreviousInViewPicker",
+      "when": "inQuickOpen && inViewsPicker"
+   },
+   {
+      "key": "ctrl+shift+r",
+      "command": "-rerunSearchEditorSearch",
+      "when": "inSearchEditor"
+   },
+   {
+      "key": "ctrl+shift+r",
+      "command": "-workbench.action.quickOpenNavigatePreviousInRecentFilesPicker",
+      "when": "inQuickOpen && inRecentFilesPicker"
+   },
+   {
+      "key": "ctrl+shift+r",
+      "command": "-editor.action.refactor",
+      "when": "editorHasCodeActionsProvider && editorTextFocus && !editorReadonly"
+   },
+   {
+      "key": "ctrl+shift+q",
+      "command": "quokka.toggle"
+   },
+   {
+      "key": "ctrl+shift+c",
+      "command": "-workbench.action.terminal.openNativeConsole",
+      "when": "!terminalFocus"
+   },
+   {
+      "key": "ctrl+tab",
+      "command": "-workbench.action.quickOpenPreviousRecentlyUsedEditorInGroup"
+   },
+   {
+      "key": "ctrl+tab",
+      "command": "workbench.action.quickOpenNavigatePreviousInEditorPicker",
+      "when": "inEditorsPicker && inQuickOpen"
+   },
+   {
+      "key": "ctrl+shift+tab",
+      "command": "-workbench.action.quickOpenNavigatePreviousInEditorPicker",
+      "when": "inEditorsPicker && inQuickOpen"
+   },
+   {
+      "key": "ctrl+q",
+      "command": "-workbench.action.quickOpenView"
+   },
+   {
+      "key": "ctrl+shift+r",
+      "command": "workbench.action.reloadWindow"
+   },
+   {
+      "key": "ctrl+r",
+      "command": "-workbench.action.reloadWindow",
+      "when": "isDevelopment"
+   },
+   {
+      "key": "ctrl+alt+w",
+      "command": "quokka.createTypeScriptFile",
+      "when": "!quokka.isLiveShareClient && !terminalFocus"
+   },
+   {
+      "key": "ctrl+k t",
+      "command": "-quokka.createTypeScriptFile",
+      "when": "!quokka.isLiveShareClient && !terminalFocus"
    }
 ]
